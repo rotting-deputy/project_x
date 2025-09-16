@@ -10,10 +10,15 @@ when the user quits, quit_message() is called to provide a fun fact and a goodby
 All print outs are simulated for aesthetic purposes.
 
 Presently working:
+
 rune.py           # checks dependencies present
+
 main.py           # the menu screen, input handler, quit handler
+
 converter.py      # currently only decimal to other types. WIP.
+
 to_do.py          # WIP
+
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 Please refer back for future updates!
 
