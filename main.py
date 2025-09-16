@@ -62,7 +62,7 @@ def handler():
         clear()
         slowprint("+-+-+-+-+-+-+-+-+-+-+\n")
         slowprint("converter.py [In Development]\n\n")
-        slowprint("converter.py will convert just about anything. For now it only takes a decimal input for conversion.\n")
+        slowprint("converter.py for now only takes a decimal input for conversion.\n")
         slowprint("This tool will check input against decimal, binary, octal, hex.\n")
         slowprint("Then, it will convert to the other three and print everything to the screen.\n\n")
         converter.converter(input("Enter a number to convert: "))
@@ -74,7 +74,7 @@ def handler():
         clear()
         slowprint("+-+-+-+-+-+-+-+-+-+-+\n")
         slowprint("map_maker.py [In Development]\n\n")
-        slowprint("map_maker.py is an attempt to create a map editor in the console.\n")
+        slowprint("map_maker.py is an attempt to create an RPG map editor in the console.\n")
         slowprint("Users can view maps and create their own maps.\n")
         slowprint("Software will also compare indexes of maps and ask for definitions on differences.\n\n")
         slowprint("Return to main menu?\n1. Yes\nANY for no\n")
@@ -90,7 +90,7 @@ def handler():
         slowprint("+-+-+-+-+-+-+-+-+-+-+\n")
         slowprint("to_do.py [In Development]\n")
         slowprint("to_do.py is a simple to-do list manager.\n")
-        slowprint("Entries will be saved to todo.md in the current directory.\n\n")
+        slowprint("Entries will be saved to todo.md in the top directory.\n\n")
         slowprint("Return to main menu?\n1. Yes\nANY for no\n")
         x = input(">")
         if x == "1":
@@ -113,10 +113,7 @@ def handler():
         else:
             clear()
             quit_message()
-    elif x == "z":
-        clear()
-        quit_message()
-    elif str(x) == "":
+    elif x == "z" or x == '':
         clear()
         quit_message()
 
