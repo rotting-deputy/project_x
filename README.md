@@ -1,5 +1,7 @@
 # CURRENT BUILD: 0000
 
+16/09/25
+
 project_x is a collection of personal software development projects to showcase my Python journey.
 
 runme.py should be launched first to check you have everything.
