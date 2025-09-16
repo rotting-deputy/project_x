@@ -16,7 +16,7 @@ All print outs are simulated for aesthetic purposes.
 
 Presently working:
 
-rune.py           # checks dependencies present
+rume.py           # checks dependencies present
 
 main.py           # the menu screen, input handler, quit handler
 
